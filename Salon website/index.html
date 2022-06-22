@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanchan's Beauty Spot</title>
+    <!--Bootsrtap CDN-->  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Js-->
+    <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+  crossorigin="anonymous"></script>
+    <!--Fontawesome CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <!--font styles-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Ubuntu:ital,wght@1,300&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <section id="title" class="title">
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg  navbar fixed-top ">
+        <div class="container-fluid">
+             <a class="navbar-brand brand" href="">Kanchan's Beauty Spot</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">-</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler" >
+        <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#title">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonials">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#bookings">Bookings</a></li>    
+        <li class="nav-item"><a class="nav-link" href="#contactus">Contact Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#signup">Sign Up</a></li>
+        </ul>
+        </div>
+     </div>  
+    </nav>
+ 
+    <div class="container">
+        <div class="wrapper">
+            <div class="booknow">
+                <button type="button" class="btn btn-danger btn-large">BOOK NOW</button>
+            </div>
+        </div>
+        
+    </div>
+ </section>
+
+ <!--services offered-->
+ <section id="services">
+  <h1>Services provided by us</h1>
+    <div class="row">
+        <div class="col-lg-4 service-box ">
+          <img src="imgs/hairstyle.png" alt="">
+          <h3>haircut</h3>
+          
+        </div>
+        <div class="col-lg-4 service-box">
+          <img src="imgs/skin cleansing.png" alt="">
+          <h3>facial</h3>
+          
+        </div>
+        <div class="col-lg-4 service-box ">
+          <img src="imgs/makeup.png" alt="">
+          <h3>makeover</h3>
+        </div>
+      </div>
+
+ </section>
+
+ <section id="testimonials">
+  <h2>WORDS THAT KEEPS US GOING</h2>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade corousel" data-bs-ride="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="testimonial-img" src="imgs/girl-3033718__340.webp" alt="girl-profile">
+        <em>I loved my bridal makeup. Shikha Yadav,Mumbai</em>
+
+      </div>
+      <div class="carousel-item">
+        <img class="testimonial-img2" src="imgs/istockphoto-1300104968-170667a.jpg" alt="lady-profile">
+        <em>The expert Manisha Kapse performed the clean up so well, it made me feel like it was my birthday.Yamini</em>
+      </div>
+    </div>
+    <button class="carousel-control-prev buttonc" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next buttonc" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <section id="contactus">
+    <div class="enquiry">
+    <h1>BOOKING ENQUIRY</h1>
+    <br>
+    <br>
+    <p>If you are not sure what service you need please book and appointment here.</p>
+    <p>we look forward to welcoming you to the salon soon!</p>
+    <p>Love Team Kanchan's Studio</p>
+    </div>
+ </section>
+ </section>
+  <section id="bookings">
+    <div class="container">
+      <main>
+        <div class="py-5 text-center">
+          
+          <h2>Secure Your Booking</h2>
+          
+        </div>
+    
+        <div class="row g-5">
+          <div class="col-md-5 col-lg-4 order-md-last">
+            
+            <ul class="list-group mb-3">
+              <li class="list-group-item d-flex justify-content-between lh-sm">
+                <div>
+                  <h6 class="my-0">Package name</h6>
+                  <small class="text-muted">Brief description</small>
+                </div>
+                <span class="text-muted">$12</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between lh-sm">
+                <div>
+                  <h6 class="my-0">Second package</h6>
+                  <small class="text-muted">Brief description</small>
+                </div>
+                <span class="text-muted">$8</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between lh-sm">
+                <div>
+                  <h6 class="my-0">Third item</h6>
+                  <small class="text-muted">Brief description</small>
+                </div>
+                <span class="text-muted">$5</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between bg-light">
+                <div class="text-success">
+                  <h6 class="my-0">Promo code</h6>
+                  <small>EXAMPLECODE</small>
+                </div>
+                <span class="text-success">−$5</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between">
+                <span>Total (USD)</span>
+                <strong>$20</strong>
+              </li>
+            </ul>
+    
+            <form class="card p-2">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Promo code">
+                <button type="submit" class="btn btn-secondary">Redeem</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-7 col-lg-8">
+            <h4 class="mb-3">Billing address</h4>
+            <form class="needs-validation" novalidate="">
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label for="firstName" class="form-label">First name</label>
+                  <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                  <div class="invalid-feedback">
+                    Valid first name is required.
+                  </div>
+                </div>
+    
+                <div class="col-sm-6">
+                  <label for="lastName" class="form-label">Last name</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                  <div class="invalid-feedback">
+                    Valid last name is required.
+                  </div>
+                </div>
+    
+                <div class="col-12">
+                  <label for="username" class="form-label">Username</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                  <div class="invalid-feedback">
+                      Your username is required.
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col-12">
+                  <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                  <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                  <div class="invalid-feedback">
+                    Please enter a valid email address for shipping updates.
+                  </div>
+                </div>
+    
+                <div class="col-12">
+                  <label for="address" class="form-label">Address</label>
+                  <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                  <div class="invalid-feedback">
+                    Please enter your shipping address.
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <label for="zip" class="form-label">Zip</label>
+                  <input type="text" class="form-control" id="zip" placeholder="" required="">
+                  <div class="invalid-feedback">
+                    Zip code required.
+                  </div>
+                </div>
+              </div>
+    
+              <hr class="my-4">
+    
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="save-info">
+                <label class="form-check-label" for="save-info">Save this information for next time</label>
+              </div>
+    
+              <hr class="my-4">
+    
+              <h4 class="mb-3">Payment</h4>
+    
+              <div class="my-3">
+                <div class="form-check">
+                  <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+                  <label class="form-check-label" for="credit">Credit card</label>
+                </div>
+                <div class="form-check">
+                  <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+                  <label class="form-check-label" for="debit">Debit card</label>
+                </div>
+                <div class="form-check">
+                  <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+                  <label class="form-check-label" for="paypal">PayPal</label>
+                </div>
+              </div>
+    
+              <div class="row gy-3">
+                <div class="col-md-6">
+                  <label for="cc-name" class="form-label">Name on card</label>
+                  <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                  <small class="text-muted">Full name as displayed on card</small>
+                  <div class="invalid-feedback">
+                    Name on card is required
+                  </div>
+                </div>
+    
+                <div class="col-md-6">
+                  <label for="cc-number" class="form-label">Credit card number</label>
+                  <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                  <div class="invalid-feedback">
+                    Credit card number is required
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <label for="cc-expiration" class="form-label">Expiration</label>
+                  <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                  <div class="invalid-feedback">
+                    Expiration date required
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <label for="cc-cvv" class="form-label">CVV</label>
+                  <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                  <div class="invalid-feedback">
+                    Security code required
+                  </div>
+                </div>
+              </div>
+    
+              <hr class="my-4">
+    
+              <button id="check" onclick="return checkedout()" class="w-100 btncheck  btn btn-lg" type="submit">Continue to checkout</button>
+            </form>
+          </div>
+        </div>
+      </main>
+    
+     
+    </div>
+
+ </section>
+  
+  <section id="signup">
+    <div class="signuppg">
+   <form id="form" onsubmit="return validation()">
+    <img class="mb-4" src="imgs/kb white logo--.png"alt="" width="72" height="57">
+    <h1 class="h3 mb-3 fw-normal">Sign up for updates</h1>
+
+    <div class="form-floating">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">Email address</label>
+    </div>
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> Remember me
+      </label>
+    </div>
+    <button class="w-100 btn btn-lg btnsign" type="submit">Sign in</button>
+    
+  </form>
+</div>
+ </section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <i class="social-icon fab fa-twitter"></i>
+    <i class="social-icon fab fa-facebook-f"></i>
+    <i class="social-icon fas fa-envelope"></i>
+    <i class="social-icon fab fa-instagram"></i>
+    <br>
+    © Copyright Kanchan's Beauty Spot
+
+  </footer>
+</body>
+</html>
